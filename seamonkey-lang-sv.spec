@@ -1,5 +1,5 @@
-Summary:	sv-SE resources for SeaMonkey
-Summary(pl):	sv-SE pliki jêzykowe dla SeaMonkeya
+Summary:	Swedish resources for SeaMonkey
+Summary(pl):	Szwedzkie pliki jêzykowe dla SeaMonkeya
 Name:		seamonkey-lang-sv
 Version:	1.0
 Release:	1
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define	_chromedir	%{_datadir}/seamonkey/chrome
 
 %description
-sv-SE resources for SeaMonkey.
+Swedish resources for SeaMonkey.
 
 %description -l pl
-sv-SE pliki jêzykowe dla SeaMonkeya.
+Szwedzkie pliki jêzykowe dla SeaMonkeya.
 
 %prep
 %setup -q -c -T
