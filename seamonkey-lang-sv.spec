@@ -27,8 +27,7 @@ Swedish resources for SeaMonkey.
 Szwedzkie pliki jêzykowe dla SeaMonkeya.
 
 %prep
-%setup -q -c -T
-unzip %{SOURCE0}
+%setup -q -c
 unzip -o %{SOURCE1}
 install %{SOURCE2} .
 ./gen-installed-chrome.sh locale chrome/{SE,sv-SE,sv-unix,enigmail-sv-SE}.jar \
