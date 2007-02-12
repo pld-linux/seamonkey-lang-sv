@@ -2,7 +2,7 @@
 %define	_reg	SE
 %define	_lare	%{_lang}-%{_reg}
 Summary:	Swedish resources for SeaMonkey
-Summary(pl):	Szwedzkie pliki jêzykowe dla SeaMonkeya
+Summary(pl.UTF-8):   Szwedzkie pliki jÄ™zykowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
 Version:	1.0
 Release:	1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Swedish resources for SeaMonkey.
 
-%description -l pl
-Szwedzkie pliki jêzykowe dla SeaMonkeya.
+%description -l pl.UTF-8
+Szwedzkie pliki jÄ™zykowe dla SeaMonkeya.
 
 %prep
 %setup -q -c
