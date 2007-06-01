@@ -4,14 +4,14 @@
 Summary:	Swedish resources for SeaMonkey
 Summary(pl.UTF-8):	Szwedzkie pliki językowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
-Version:	1.0
+Version:	1.1.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
-# Source0-md5:	163d0b0fafbdeaa816eb664fce766b04
+# Source0-md5:	e4be6069476254d6976efb911b20ed5f
 Source1:	http://www.mozilla-enigmail.org/downloads/lang/0.9x/enigmail-%{_lare}-0.9x.xpi
-# Source1-md5:	8850c1eab91e441d30a2e536b3b31a3b
+# Source1-md5:	237d8d4cef7a5a5bb2ec99c08cdc1c95
 Source2:	gen-installed-chrome.sh
 URL:		http://www.mozilla.org/projects/seamonkey/
 BuildRequires:	unzip
